@@ -53,10 +53,11 @@ class APIClient {
             print(error as Any)
             #endif
         
-            if let error = error as? URLError {
+            if let error {
                 DispatchQueue.main.async {
-                    if error.code == .notConnectedToInternet {
-                        completionHandler(nil, .networkUnavailable(error.localizedDescription))
+                    if let urlError = error as? URLError,
+                       urlError.code == .notConnectedToInternet {
+                        completionHandler(nil, .networkUnavailable(urlError.localizedDescription))
                     } else {
                         completionHandler(nil, .unexpectedError)
                     }
@@ -103,7 +104,11 @@ class APIClient {
                 let networkingError = responseError.getNetworkingError()
                 
                 DispatchQueue.main.async {
-                    completionHandler(nil, networkingError)
+                    if case .unexpectedError = networkingError {
+                        completionHandler(nil, .unsuccessfulStatusCode(httpResponse.statusCode))
+                    } else {
+                        completionHandler(nil, networkingError)
+                    }
                 }
             } catch {
                 DispatchQueue.main.async {

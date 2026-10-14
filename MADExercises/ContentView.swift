@@ -168,7 +168,7 @@ struct ContentView: View {
         case .serializationError:
             displayAlert("Error", "Login data could not be processed")
         case .invalidEmail:
-            displayAlert("Invalid Emial", "Email is not valid")
+            displayAlert("Invalid Email", "Email is not valid")
         case .emailNotFound:
             displayAlert("Email not found", "There is no account with this email")
         case .wrongPassword:
