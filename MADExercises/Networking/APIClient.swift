@@ -17,7 +17,7 @@ class APIClient {
         password: String,
         completionHandler: @escaping (User?, NetworkingError?) -> Void
     ) {
-        let endpoint = "https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=" + apiKey
+        let endpoint = "https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=\(apiKey)"
         
         guard let url = URL(string: endpoint) else {
             DispatchQueue.main.async {

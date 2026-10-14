@@ -147,7 +147,7 @@ struct ContentView: View {
             isLoading = false
             
             if let user {
-                displayAlert("Success", "Login successful for " + user.email)
+                displayAlert("Success", "Login successful for \(user.email)")
                 return
             }
             
@@ -180,7 +180,7 @@ struct ContentView: View {
         case .invalidResponse:
             displayAlert("Invalid Response", "Server returned an unexpected response")
         case .unsuccessfulStatusCode(let statusCode):
-            displayAlert("Server Error", "Server returned status code" + statusCode.description)
+            displayAlert("Server Error", "Server returned status code \(statusCode.description)")
         case .unexpectedError:
             displayAlert("Unexpected Error", "An unexpected error occurred")
         }
