@@ -28,9 +28,6 @@ struct ContentView: View {
     
     @FocusState private var focusedField: Field?
     
-    private let expectedEmail = "test@hcw.com"
-    private let expectedPassword = "campusWien1100"
-    
     private let apiClient = APIClient()
     
     var body: some View {
@@ -171,7 +168,7 @@ struct ContentView: View {
         case .serializationError:
             displayAlert("Error", "Login data could not be processed")
         case .invalidEmail:
-            displayAlert("Invalid Emal", "Email is not valid")
+            displayAlert("Invalid Emial", "Email is not valid")
         case .emailNotFound:
             displayAlert("Email not found", "There is no account with this email")
         case .wrongPassword:

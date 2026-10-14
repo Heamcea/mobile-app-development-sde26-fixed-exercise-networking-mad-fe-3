@@ -20,7 +20,9 @@ class APIClient {
         let endpoint = "https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=" + apiKey
         
         guard let url = URL(string: endpoint) else {
-            completionHandler(nil, .unexpectedError)
+            DispatchQueue.main.async {
+                completionHandler(nil, .unexpectedError)
+            }
             return
         }
         
@@ -35,15 +37,29 @@ class APIClient {
         do {
             request.httpBody = try JSONSerialization.data(withJSONObject: requestBody, options: [])
         } catch {
-            completionHandler(nil, .serializationError)
+            DispatchQueue.main.async {
+                completionHandler(nil, .serializationError)
+            }
             return
         }
         
         let task = urlSession.dataTask(with: request) { data, response, error in
             
-            guard error == nil else {
+            #if DEBUG
+            if let data {
+                print(String(data:data,encoding: .utf8) ?? "Invalid data")
+            }
+            print(response as Any)
+            print(error as Any)
+            #endif
+        
+            if let error = error as? URLError {
                 DispatchQueue.main.async {
-                    completionHandler(nil, .networkUnavailable(error?.localizedDescription ?? "Unknown network error"))
+                    if error.code == .notConnectedToInternet {
+                        completionHandler(nil, .networkUnavailable(error.localizedDescription))
+                    } else {
+                        completionHandler(nil, .unexpectedError)
+                    }
                 }
                 return
             }
@@ -62,9 +78,13 @@ class APIClient {
                 return
             }
             
-            if httpResponse.statusCode == 200 {
+            if (200..<300).contains(httpResponse.statusCode){
                 do {
                     let user = try JSONDecoder().decode(User.self, from: data)
+                    
+                    #if DEBUG
+                    print(user)
+                    #endif
                     
                     DispatchQueue.main.async {
                         completionHandler(user, nil)
@@ -90,6 +110,7 @@ class APIClient {
                     completionHandler(nil, .unsuccessfulStatusCode(httpResponse.statusCode))
                 }
             }
+           
         }
         task.resume()
     }
