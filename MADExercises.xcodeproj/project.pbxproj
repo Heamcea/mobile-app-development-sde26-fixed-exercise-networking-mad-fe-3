@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 110;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		7AAC8DA1306941660006B798 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7AAC8D8B3069415A0006B798 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7AAC8D923069415A0006B798;
+			remoteInfo = MADExercises;
+		};
+		7AAC8DAB306941660006B798 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7AAC8D8B3069415A0006B798 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7AAC8D923069415A0006B798;
+			remoteInfo = MADExercises;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7AAC8D933069415A0006B798 /* MADExercises.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MADExercises.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AAC8DA0306941660006B798 /* MADExercisesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MADExercisesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AAC8DAA306941660006B798 /* MADExercisesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MADExercisesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		7AAC8D953069415A0006B798 /* MADExercises */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MADExercises;
+			sourceTree = "<group>";
+		};
+		7AAC8DA3306941660006B798 /* MADExercisesTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MADExercisesTests;
+			sourceTree = "<group>";
+		};
+		7AAC8DAD306941660006B798 /* MADExercisesUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MADExercisesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7AAC8D903069415A0006B798 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		7AAC8D9D306941660006B798 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		7AAC8DA7306941660006B798 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7AAC8D8A3069415A0006B798 = {
+			isa = PBXGroup;
+			children = (
+				7AAC8D953069415A0006B798 /* MADExercises */,
+				7AAC8DA3306941660006B798 /* MADExercisesTests */,
+				7AAC8DAD306941660006B798 /* MADExercisesUITests */,
+				7AAC8D943069415A0006B798 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7AAC8D943069415A0006B798 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7AAC8D933069415A0006B798 /* MADExercises.app */,
+				7AAC8DA0306941660006B798 /* MADExercisesTests.xctest */,
+				7AAC8DAA306941660006B798 /* MADExercisesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7AAC8D923069415A0006B798 /* MADExercises */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AAC8DB2306941660006B798 /* Build configuration list for PBXNativeTarget "MADExercises" */;
+			buildPhases = (
+				7AAC8D8F3069415A0006B798 /* Sources */,
+				7AAC8D903069415A0006B798 /* Frameworks */,
+				7AAC8D913069415A0006B798 /* Resources */,
+			);
+			buildRules = (
+			);
+			fileSystemSynchronizedGroups = (
+				7AAC8D953069415A0006B798 /* MADExercises */,
+			);
+			name = MADExercises;
+			productName = MADExercises;
+			productReference = 7AAC8D933069415A0006B798 /* MADExercises.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7AAC8D9F306941660006B798 /* MADExercisesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AAC8DB5306941660006B798 /* Build configuration list for PBXNativeTarget "MADExercisesTests" */;
+			buildPhases = (
+				7AAC8D9C306941660006B798 /* Sources */,
+				7AAC8D9D306941660006B798 /* Frameworks */,
+				7AAC8D9E306941660006B798 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7AAC8DA2306941660006B798 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				7AAC8DA3306941660006B798 /* MADExercisesTests */,
+			);
+			name = MADExercisesTests;
+			productName = MADExercisesTests;
+			productReference = 7AAC8DA0306941660006B798 /* MADExercisesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7AAC8DA9306941660006B798 /* MADExercisesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AAC8DB8306941660006B798 /* Build configuration list for PBXNativeTarget "MADExercisesUITests" */;
+			buildPhases = (
+				7AAC8DA6306941660006B798 /* Sources */,
+				7AAC8DA7306941660006B798 /* Frameworks */,
+				7AAC8DA8306941660006B798 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7AAC8DAC306941660006B798 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				7AAC8DAD306941660006B798 /* MADExercisesUITests */,
+			);
+			name = MADExercisesUITests;
+			productName = MADExercisesUITests;
+			productReference = 7AAC8DAA306941660006B798 /* MADExercisesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7AAC8D8B3069415A0006B798 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2700;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					7AAC8D923069415A0006B798 = {
+						CreatedOnToolsVersion = 27.0;
+					};
+					7AAC8D9F306941660006B798 = {
+						CreatedOnToolsVersion = 27.0;
+						TestTargetID = 7AAC8D923069415A0006B798;
+					};
+					7AAC8DA9306941660006B798 = {
+						CreatedOnToolsVersion = 27.0;
+						TestTargetID = 7AAC8D923069415A0006B798;
+					};
+				};
+			};
+			buildConfigurationList = 7AAC8D8E3069415A0006B798 /* Build configuration list for PBXProject "MADExercises" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7AAC8D8A3069415A0006B798;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 7AAC8D943069415A0006B798 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7AAC8D923069415A0006B798 /* MADExercises */,
+				7AAC8D9F306941660006B798 /* MADExercisesTests */,
+				7AAC8DA9306941660006B798 /* MADExercisesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7AAC8D913069415A0006B798 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		7AAC8D9E306941660006B798 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		7AAC8DA8306941660006B798 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7AAC8D8F3069415A0006B798 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		7AAC8D9C306941660006B798 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		7AAC8DA6306941660006B798 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7AAC8DA2306941660006B798 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7AAC8D923069415A0006B798 /* MADExercises */;
+			targetProxy = 7AAC8DA1306941660006B798 /* PBXContainerItemProxy */;
+		};
+		7AAC8DAC306941660006B798 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7AAC8D923069415A0006B798 /* MADExercises */;
+			targetProxy = 7AAC8DAB306941660006B798 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7AAC8DB0306941660006B798 /* Debug configuration for PBXProject "MADExercises" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7AAC8DB1306941660006B798 /* Release configuration for PBXProject "MADExercises" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7AAC8DB3306941660006B798 /* Debug configuration for PBXNativeTarget "MADExercises" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hamza.MADExercises;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7AAC8DB4306941660006B798 /* Release configuration for PBXNativeTarget "MADExercises" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hamza.MADExercises;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7AAC8DB6306941660006B798 /* Debug configuration for PBXNativeTarget "MADExercisesTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hamza.MADExercisesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MADExercises.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MADExercises";
+			};
+			name = Debug;
+		};
+		7AAC8DB7306941660006B798 /* Release configuration for PBXNativeTarget "MADExercisesTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hamza.MADExercisesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MADExercises.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MADExercises";
+			};
+			name = Release;
+		};
+		7AAC8DB9306941660006B798 /* Debug configuration for PBXNativeTarget "MADExercisesUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hamza.MADExercisesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MADExercises;
+			};
+			name = Debug;
+		};
+		7AAC8DBA306941660006B798 /* Release configuration for PBXNativeTarget "MADExercisesUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hamza.MADExercisesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MADExercises;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7AAC8D8E3069415A0006B798 /* Build configuration list for PBXProject "MADExercises" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AAC8DB0306941660006B798 /* Debug configuration for PBXProject "MADExercises" */,
+				7AAC8DB1306941660006B798 /* Release configuration for PBXProject "MADExercises" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		7AAC8DB2306941660006B798 /* Build configuration list for PBXNativeTarget "MADExercises" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AAC8DB3306941660006B798 /* Debug configuration for PBXNativeTarget "MADExercises" */,
+				7AAC8DB4306941660006B798 /* Release configuration for PBXNativeTarget "MADExercises" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		7AAC8DB5306941660006B798 /* Build configuration list for PBXNativeTarget "MADExercisesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AAC8DB6306941660006B798 /* Debug configuration for PBXNativeTarget "MADExercisesTests" */,
+				7AAC8DB7306941660006B798 /* Release configuration for PBXNativeTarget "MADExercisesTests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		7AAC8DB8306941660006B798 /* Build configuration list for PBXNativeTarget "MADExercisesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AAC8DB9306941660006B798 /* Debug configuration for PBXNativeTarget "MADExercisesUITests" */,
+				7AAC8DBA306941660006B798 /* Release configuration for PBXNativeTarget "MADExercisesUITests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7AAC8D8B3069415A0006B798 /* Project object */;
+	validationLevel = 1;
+}
